@@ -2,6 +2,7 @@
 	;this program will accept a number between -511 and +511
 	;it will output the binary version of the number to the screen
 	;it will also output the number as a 16-bit floating point number 
+	;program implements subroutines throughout
 			.orig x3000
 
 	start		jsr get_number
